@@ -1,0 +1,38 @@
+# Node.js / pnpm related
+node_modules/
+.pnpm/
+.pnpm-debug.log
+dist/
+build/
+*.log
+
+# Vue.js specific
+/.vite/
+.vuepress/dist/
+*.local
+
+# Python / FastAPI related
+*.pyc
+*.pyo
+__pycache__/
+.env/
+*.env
+*.venv
+venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+poetry.lock
+Pipfile.lock
+
+# Editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
